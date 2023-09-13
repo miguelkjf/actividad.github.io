@@ -1,0 +1,168 @@
+/* Configuración de elementos principales */
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+  color: #dbd000;
+  background-color: #f9f8f6;
+  background-image: url('https://img.freepik.com/fotos-premium/manteles_127657-12720.jpg?w=900');
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+/* Estilo del contenedor principal */
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #790000;
+  background-color: #67fffc;
+}
+
+/* Estilo del encabezado */
+header {
+  height: 160px;
+  background-image: url(../images/header.jpg);
+}
+
+/* Estilo del título del encabezado */
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
+}
+
+/* Estilo de la navegación y el pie de página */
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #5cff3f;
+  height: 30px;
+}
+
+/* Estilo de la lista de navegación */
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+/* Estilo de los elementos de la lista de navegación */
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+/* Estilo de los enlaces de navegación */
+nav li a {
+  color: #ffffff;
+}
+
+/* Estilo de los enlaces de navegación cuando se pasan por encima o están activos */
+nav li a:hover,
+nav li a.current {
+  color: #000000;
+}
+
+/* Estilo de la sección de cursos */
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
+}
+
+/* Estilo de los elementos de artículo */
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+/* Estilo de los grupos de encabezados */
+hgroup {
+  margin-top: 40px;
+}
+
+/* Estilo de las figuras */
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+/* Estilo de las leyendas de figuras */
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+/* Estilo del aside */
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+/* Estilo de los enlaces en la sección del aside */
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Estilo de los enlaces en la sección del aside cuando se pasan por encima */
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+/* Estilo general de los enlaces */
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+/* Estilo de los encabezados h1, h2, h3 */
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+/* Estilo de los encabezados h2 */
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+
+/* Estilo de los encabezados h3 */
+h3 {
+  margin: 0px 0px 10px 0px;
+  color: #de6581;
+}
+
+/* Estilo de los encabezados h2 en la sección del aside */
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: #de6581;
+}
+
+/* Estilo del pie de página */
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
